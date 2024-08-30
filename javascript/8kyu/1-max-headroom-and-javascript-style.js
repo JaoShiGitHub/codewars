@@ -6,8 +6,15 @@
     Can you spot a problem and fix it? Can you learn something about JavaScript style in this kata?
 */
 
-const max = { name: 'Max Headroom' };
+function getMax1() {
+  const max = {
+   name: 'Max Headroom'
+  }
+  return max;
+}
 
-const getMax1 = () => max;
-
-const getMax2 = () => max;
+function getMax2() {
+  return {
+    name: 'Max Headroom'
+  }
+}
